@@ -1,0 +1,23 @@
+{
+  "name": "db",
+  "version": "0.0.1",
+  "description": "db module that allows me to establish conventions between projects",
+  "homepage": "https://github.com/driftless-group/db#readme",
+  "bugs": {
+    "url": "https://github.com/driftless-group/db/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driftless-group/db.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Scott Ballantyne",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "dependencies": {
+    "@drifted/env": "^0.0.2"
+  }
+}
