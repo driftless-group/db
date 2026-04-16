@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/driftless-group/db.git"
   },
-  "license": "UNLICENSED",
+  "license": "GPL-3.0",
   "author": "Scott Ballantyne",
   "type": "commonjs",
   "main": "index.js",
