@@ -1,6 +1,6 @@
 {
   "name": "@drifted/db",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "db module that allows me to establish conventions between projects",
   "homepage": "https://github.com/driftless-group/db#readme",
   "bugs": {
