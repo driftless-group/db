@@ -1,5 +1,6 @@
 const path = require('path');
-var initialize = require(path.join(__dirname, 'mongo', 'initialize'));
+require('@drifted/env');
+var initialize = require(path.join(__dirname, 'initialize'));
 
 initialize(process.env.MONGO_URL).
   catch(console.eror);
