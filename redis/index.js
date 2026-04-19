@@ -1,6 +1,10 @@
 const path = require('path');
-require('@drifted/env');
+
+if (process.env.REDIS_URL == undefined) {
+  require('@drifted/env');
+}
 var initialize = require(path.join(__dirname, 'initialize'));
+
 
 var client = initialize({url: process.env.REDIS_URL});
 
